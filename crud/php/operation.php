@@ -92,17 +92,3 @@ function deleteRecord(){
         TextNode("error","Unable to Delete Record");
     }
 }
-
-// function deleteBtn(){
-//     $result = getData();
-//     $i = 0;
-//     if($result){
-//         while($row = mysqli_fetch_assoc($result)){
-//             $i++;
-//             if($i > 2){
-//                 buttonElement("btn-deleteall", "btn btn-danger", "<i class='fas fa-trash'></i> Delete All", "deleteall", "");
-//                 return;
-//             }
-//         }
-//     }
-// }
